@@ -7,7 +7,7 @@ except Exception as e:
 
 
 class CrmCall:
-    with open('conf.json', 'r') as f:
+    with open(os.path.abspath(os.path.dirname(__file__))+'/conf.json', 'r') as f:
         dataa = json.load(f)
 
     ucrm_key = dataa.get('ucrm').get('ucrm_key')

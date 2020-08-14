@@ -37,7 +37,7 @@ class Ros(pyros_api.RosCall):
 
 def ros_api():
 
-    with open(os.path.abspath('./conf.json'), 'r') as f:
+    with open(os.path.abspath(os.path.dirname(__file__))+'/conf.json', 'r') as f:
         dataa = json.load(f)
 
     m_ip = dataa.get('router_os').get('host')
