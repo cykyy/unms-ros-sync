@@ -1,0 +1,7 @@
+__pycache__
+.idea/
+pyros_api.egg-info/
+dist/
+build/
+to-dos.txt
+.DS_Store

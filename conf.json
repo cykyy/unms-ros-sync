@@ -1,0 +1,18 @@
+{
+  "ucrm": {
+    "ucrm_key": "ysveeHvc25gtU6g2ue9pjR3MoTm/oIwAapuKF6yP12bLYz9WHyDdn94M10WNaHEW",
+    "domain_name": "example.com",
+    "ip_address": "127.0.0.1"
+  },
+  "router_os": {
+    "host": "192.168.1.1",
+    "username": "admin",
+    "password": "",
+    "port": 8728,
+    "plaintext_login": true,
+    "use_ssl": false,
+    "ssl_verify": true,
+    "ssl_verify_hostname": true,
+    "ssl_context": null
+  }
+}
