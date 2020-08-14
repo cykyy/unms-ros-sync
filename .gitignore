@@ -5,3 +5,5 @@ dist/
 build/
 to-dos.txt
 .DS_Store
+jobs.txt
+log/
