@@ -4,7 +4,7 @@
 Version: 0.0.1
 ```
 
-unms-ros-sync syncs clients from UNMS to Mikrotik routerOS router. Script schedules a crontab with a 1 minute interval.\
+unms-ros-sync syncs clients from UNMS to Mikrotik routerOS router (currently supports pppoe clients only). Script schedules a crontab with a 1 minute interval.\
 Everything (e.g: create/update) will get updated once the script runs in every minutes.
 
 ## Usage
