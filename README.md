@@ -12,7 +12,7 @@ Everything create/update will get updated once the script runs.
 ### Installation
 * type `sudo wget https://raw.githubusercontent.com/cykyy/unms-ros-sync/master/install.sh && sudo chmod +x install.sh && sudo ./install.sh` on cli.
 * edit conf.json (`sudo nano unms-ros-sync-0.0.1/conf.json`) following the belows guide.
-* finally run `sudo ./cronsetup.sh `on cli.
+* finally run `sudo bash unms-ros-sync-0.0.1/cronsetup.sh` on cli.
 ### Connection
 `sudo nano unms-ros-sync-0.0.1/conf.json` to edit conf.json with your data. e.g:
 ```
