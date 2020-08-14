@@ -1,5 +1,5 @@
 #  unms-ros-sync
-###  routerOS and UNMS Synchronizer
+### UNMS & routerOS Synchronizer
 ```sh
 Version: 0.0.1
 ```
@@ -9,6 +9,10 @@ Everything create/update will get updated once the script runs.
 
 ## Usage
 
+### Installation
+* type `wget https://raw.githubusercontent.com/cykyy/unms-ros-sync/master/install.sh && chmod +x install.sh && ./install.sh` on cli.
+* edit conf.json following the belows guide.
+* finally run sudo ./cronsetup.sh on cli.
 ### Connection
 Edit conf.json with your data. e.g:
 ```
