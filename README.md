@@ -10,6 +10,7 @@ Everything create/update will get updated once the script runs.
 ## Usage
 
 ### Installation
+Needs a fresh ubuntu 18.04 server to get started and follow the guides below.
 * type `sudo wget https://raw.githubusercontent.com/cykyy/unms-ros-sync/master/install.sh && sudo chmod +x install.sh && sudo ./install.sh` on cli.
 * edit conf.json (`sudo nano unms-ros-sync-0.0.1/src/conf.json`) following the belows guide.
 * finally run `sudo bash unms-ros-sync-0.0.1/cronsetup.sh` on cli.
