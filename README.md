@@ -107,6 +107,9 @@ Supports private ip and no domain.
 'pass_updater.py' is a script included which can be used to import ppp secret password from routerOS to UNMS CRM. If a ppp secret is not available on CRM but exist in routerOS then this script will simply ignore that ppp secret. \
 `To use the script, first edit the script and uncomment the bottom portion of the code then save and type 'python3 pass_updater.py' on cli.`
 
+### Dev
+ I tried to make the documentation as helpful as possible still If anyone need any help in installation or need any customization/extra feature/similar script you can contact me on miarayhan11@icloud.com.
+
 ### To-do's
 
  - Implement static ip and synchronizing with routerOS on crm
