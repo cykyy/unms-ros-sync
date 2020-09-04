@@ -68,7 +68,7 @@ Using SSL: If we want to use SSL, we can simply specify `use_ssl` as `True`
 [Make  sure the same '30mbps' package is available in routerOS]
 3. Crontab runs the script and 'ABC1' gets created on router.
 4. Someone changes password of 'ABC1' on router from winbox.
-5. Next 5 minutes the script runs again and updates the password from CRM (meaning to change any value we have to change in CRM. But if we want to achive otherwise then use we have to use 'Custom-Config' tag on CRM clients or archive them on CRM.)
+5. Next 1 minute the script runs again and updates the password from CRM (meaning to change any value we have to change in CRM. But if we want to achive otherwise then we have to use 'Custom-Config' tag on CRM clients or archive them on CRM.)
 ```
 
 ## Features & Rules:
@@ -118,6 +118,6 @@ Supports private ip and no domain.
 ### Keyword's
 
  - 'xg1' means to come back and re-check asap. Possibly no test has been made.
- - 'xg2' means to the solution is temporally and needs more work to solve the problem better.
+ - 'xg2' means the solution is temporally and needs more work to solve the problem in a better way.
  - 'xg3?' means is it working as it should? Needs more testing.
  
